@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="10">
+    <test name="PWA Demo iOS">
+  <parameter name="deviceName" value="00008030-001D29661488802E" />
+  <parameter name="OS" value="ios" />
+  <classes>
+  <class name = "io.perfecto.pwa.tests.PWATest" ></class>
+  </classes>
+  </test> <!-- Test -->
+      <test name="PWA Demo iOS 1">
+  <parameter name="deviceName" value="00008030-001258DE2E10802E" />
+  <parameter name="OS" value="ios" />
+  <classes>
+  <class name = "io.perfecto.pwa.tests.PWATest" ></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
